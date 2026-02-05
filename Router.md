@@ -1,4 +1,4 @@
-# Threat: Router
+# Attack vector: Router
 
 | **Primary threat vector** | **Zero Trust Policy** | **Mitigations to be applied a smart home owner** |
 | :---                      | :---:                 |  :---:                                           |
