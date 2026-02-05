@@ -1,4 +1,4 @@
-# Threat: Physical Access
+# Attack vector: Physical Access
 
 | **Primary threat vector** | **Zero Trust Policy** | **Mitigations to be applied a smart home owner** |
 | :---                      | :---:                 |  :---:                                           |
