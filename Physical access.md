@@ -3,13 +3,13 @@
 | **Primary threat vector** | **Zero Trust Policy** | **Mitigations to be applied a smart home owner** |
 | :---                      | :---:                 |  :---:                                           |
 |                           |                       |                                                  |
-| The Ethernet cable gets damaged accidently or deliberately | Least Privilege Policy  Restricting access to the cable to unauthorised people. | Secure the cable in a covering that is tamper resistent |
+| The Ethernet cable gets damaged accidently or deliberately | Least Privilege Policy by restricting access to the cable to unauthorised people. | Secure the cable in a covering that is tamper resistent |
 |                           |
 | Downgrading of security controls due to owner's lack of knowledge | Comprehensive visibility | a) security markings on devices and b) education and awareness about security controls |
 |                           |                            |
 | Malicious actors locating vulnerable people in smart home environments  | Comprehensive visibility | education and awareness about asking for identification before letting people in |
 |                           |                              |
-| Weak SSID credentials     | Authenticaiton before authorisation   | Set strong passwords for the SSID
+| Weak SSID credentials     | Authentication before authorisation   | Set strong passwords for the SSID
 |                           |                               |
 | Visibility of SSID        | All resource authentications and authorisations are dynamic and strictly enforced before access is allowed | Hide SSID 
 |                           |                                |
