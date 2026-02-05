@@ -3,9 +3,9 @@
 | **Primary threat vector** | **Zero Trust Policy** | **Mitigations to be applied a smart home owner** |
 | :---                      | :---:                 |  :---:                                           |
 |                           |                       |                                                  |
-| Unauthorised connections to open ports | Least privilege | Close unwanted ports on the router such as 21, 22, 25 |
+| Unauthorised connections to open ports | Session based connection from the router to the destination asset | Because not all destinations are known to a smart home owner and web applications connect over port 443, close unwanted ports on the router such as 21, 22, 25 |
 |                           |
-| Unauthorised connections to open ports | Authenticaiton before authorisation | Close port 7547  |
+| Unauthorised connections to open ports | Authenticated connections | Port 7547 is used by ISPs for remote administration. If the ISP does not use any authentication for the connection, any malicious actor can discover this port and try and access the admin console. So close port 7547  |
 |                           |                            |
 | Exfiltration of data on common ports such as 443  | context-aware connections | Monitor and close any connections to known malicious clouds via port 443 |
 |                           |                              |
